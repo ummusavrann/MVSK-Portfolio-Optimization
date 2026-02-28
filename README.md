@@ -3,16 +3,6 @@
 
 ---
 
-## 👩‍🎓 Proje Sahibi
-
-**Ümmü Savran**  
-Eskişehir Teknik Üniversitesi  
-Fen Fakültesi – İstatistik Bölümü  
-Danışman: Prof. Dr. İlhan Usta  
-Yıl: 2024  
-
----
-
 ## 📖 Proje Hakkında
 
 Bu çalışmada klasik **Markowitz Ortalama–Varyans (MV)** modeline alternatif olarak, yüksek dereceli momentleri içeren **Ortalama–Varyans–Çarpıklık–Basıklık (MVSK)** portföy optimizasyon modeli ele alınmıştır.
