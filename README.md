@@ -28,7 +28,7 @@ Bu çoklu ve birbiriyle çelişen hedefler **Polinom Hedef Programlama (PGP)** y
 
 ---
 
-## 📊 Kullanılan Veri Seti
+## 📊 Veri Seti
 
 Bu çalışmada BIST-30 endeksinde yer alan aşağıdaki üç hisse senedi kullanılmıştır:
 
@@ -40,11 +40,7 @@ Bu çalışmada BIST-30 endeksinde yer alan aşağıdaki üç hisse senedi kulla
 📈 Günlük logaritmik getiriler kullanılmıştır.  
 📌 Toplam 248 gözlem bulunmaktadır.
 
-Logaritmik getiri formülü:
-
-\[
-r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
-\]
+Analizde günlük logaritmik getiriler kullanılmıştır.
 
 ---
 
@@ -52,15 +48,7 @@ r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
 
 ### 1️⃣ Ortalama–Varyans (MV) Modeli
 
-Amaç:
-
-\[
-\max w^T \mu
-\]
-
-\[
-\min w^T V w
-\]
+Getiriyi maksimize ederken riski minimize etmeyi amaçlayan klasik portföy optimizasyon yaklaşımıdır.
 
 ---
 
@@ -79,18 +67,7 @@ Bu model, finansal getirilerin normal dağılmadığı durumlarda daha kapsamlı
 
 ### 3️⃣ Polinom Hedef Programlama (PGP)
 
-Çoklu hedefler aşağıdaki amaç fonksiyonu ile birleştirilmiştir:
-
-\[
-Min Z = |d_1|^{\lambda_1} + |d_2|^{\lambda_2} + |d_3|^{\lambda_3} + |d_4|^{\lambda_4}
-\]
-
-Burada:
-
-- \( d_i \) → hedef sapmaları  
-- \( \lambda_i \) → yatırımcı tercih katsayılarıdır  
-
-Bu yaklaşım doğrusal olmayan çok kriterli optimizasyon problemidir.
+Çok kriterli optimizasyon problemlerinde hedef sapmalarını minimize ederek yatırımcı tercihlerine uygun portföy bileşimi oluşturur. Bu yöntem doğrusal olmayan bir optimizasyon yaklaşımıdır.
 
 ---
 
@@ -135,10 +112,10 @@ rapor içerisinde detaylı olarak sunulmuştur.
 
 ## 📂 Depo İçeriği
 
-Veri/ → Hisse senedi veri seti
-Kod/ → R kodları
-Rapor/ → Lisans tez raporu (PDF)
-Poster/ → Akademik proje posteri
+- Veri/ → Hisse senedi veri seti
+- Kod/ → R kodları
+- Rapor/ → Lisans tez raporu (PDF)
+- Poster/ → Akademik proje posteri
 
 
 ---
